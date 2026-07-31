@@ -1,16 +1,81 @@
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Password Generator is a React-based web application that generates secure and customizable passwords. Users can define the password length and choose whether to include uppercase letters, lowercase letters, numbers, and special characters. The application also provides a one-click copy-to-clipboard feature for improved usability.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Generate secure random passwords
+* Customize password length
+* Include uppercase letters
+* Include lowercase letters
+* Include numbers
+* Include special characters
+* Copy generated password to clipboard
+* Responsive user interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Technologies Used
+
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* React Hooks (`useState`)
+* Clipboard API
+
+
+
+## Project Structure
+
+```text id="ixjlwm"
+src/
+├── App.jsx
+├── App.css
+├── main.jsx
+
+public/
+
+package.json
+README.md
+```
+
+
+
+## Installation
+
+```bash id="jjlwm8"
+git clone https://github.com/your-username/Password-generator.git
+
+cd Password-generator
+
+npm install
+
+npm run dev
+```
+
+
+## Application Workflow
+
+1. Select the desired password length.
+2. Choose the character types to include.
+3. Click the **Generate Password** button.
+4. Copy the generated password using the **Copy** button.
+
+
+## Screenshot
+<img width="1920" height="906" alt="image" src="https://github.com/user-attachments/assets/7b582915-81da-4c51-8c16-0a5bb11ea607" />
+
+## Project Live Link
+Click to View the Project [password-generater-va17-two.vercel.app](https://password-generater-va17-two.vercel.app/)
+## Demo
+
+
+https://github.com/user-attachments/assets/35a596ca-d62a-4108-85c3-b83f038b10b5
+
+
+
