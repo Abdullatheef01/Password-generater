@@ -109,7 +109,7 @@ h2{
   color: white;
 }
 
-input[type:checkbox]{
+input[type:"checkbox"]{
   
 }
 input::-webkit-outer-spin-button,
