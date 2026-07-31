@@ -68,14 +68,18 @@ npm run dev
 
 
 ## Screenshot
-<img width="1920" height="906" alt="image" src="https://github.com/user-attachments/assets/7b582915-81da-4c51-8c16-0a5bb11ea607" />
+<img width="1917" height="904" alt="31 07 2026_22 27 16_REC" src="https://github.com/user-attachments/assets/c268efa1-4760-4a9c-be1e-4f916af47a63" />
+
 
 ## Project Live Link
 Click to View the Project [password-generater-va17-two.vercel.app](https://password-generater-va17-two.vercel.app/)
 ## Demo
 
 
-https://github.com/user-attachments/assets/35a596ca-d62a-4108-85c3-b83f038b10b5
+
+https://github.com/user-attachments/assets/976fdaaf-084a-4759-ad9c-042e9712e6e5
+
+
 
 
 
