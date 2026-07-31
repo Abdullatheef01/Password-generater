@@ -23,8 +23,14 @@ finalstate(wholevalue)
 
   }
   const click=()=>{
-     navigator.clipboard.writeText(final);
+    if(final==="Password"){
+      alert("Please Press Generate Password")
+    }
+    else{
+        navigator.clipboard.writeText(final);
   alert("Password Copied!");
+    }
+   
   }
   return (
     <>
