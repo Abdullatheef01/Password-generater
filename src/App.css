@@ -25,10 +25,16 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color:#000000 ;
+  /* background-color:#000000 ; */
+ background:
+    radial-gradient(circle at top left, #ffffff 0%, #b38cff 20%, transparent 40%),
+    radial-gradient(circle at center right, #7a3cff 0%, transparent 35%),
+    #0b0615;
+    
   font-family: "Poppins", sans-serif;
 }
 .container{
+  box-shadow: 2px 2px -4px 25px #5f4793;
   display: flex;
   flex-direction: column;
   color:#a1a1a1 ;
@@ -131,6 +137,6 @@ input[type=number]{
     background-color:#4a4a4a;
 }
 .container:hover{
-  border-color: #243c58;
+  border-color:  #50348d;
 }
 

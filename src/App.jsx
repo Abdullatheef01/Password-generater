@@ -34,6 +34,7 @@ finalstate(wholevalue)
   }
   return (
     <>
+    <div className='large'>
       <div className="container">
         <p className='result'> {final}<button title='Copy' onClick={click}>Copy</button></p>
         <hr className='line'/>
@@ -62,6 +63,8 @@ onChange={(e)=>{numstate(e.target.checked)}}/> Include Number
         
         
       </div>
+    </div>
+      
     </>
   )
 }
