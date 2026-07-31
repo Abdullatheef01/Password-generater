@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100..800&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100..800&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100..800&family=Arimo:ital,wght@0,400..700;1,400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --genrate:#0075ff;
+  --result-btn:#1f1f1f;
+  
+}
+/* #1a1a1a
+#0075ff */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:#000000 ;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  color:#a1a1a1 ;
+  background-color:#0a0a0a;
+  padding: 20px;
+  gap: 10px;
+  width:100%;
+  max-width: 1000px;
+  border: 0.5px solid #4a4a4a;
+  border-radius: 25px;
+}
+.input-top{
+  margin-top: 30px ;
+  font-size:large;
+  margin-left: 2px;
+}
+#text-box{
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border:0.5px solid #4a4a4a;
+  outline: none;
+  margin-top: 15px;
+  background-color:#1f1f1f;
+  color: white;
+  font-size: large;
+}
+h2{
+  font-weight:00;
+ text-align: center;
+  
+  font-family: "Arimo", sans-serif;
+ 
+}
+
+#uppercase,
+#lowercase,
+#number,
+#symbol{
+  margin-top: 5px;
+  margin-left: 1px;
+  font-size: larger;
+  
+}
+
+.btn{
+  background-color:var(--genrate);
+  border: none;
+  color: rgb(226, 224, 224);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+ margin-top: 30px;
+}
+
+.result{
+  display: flex;
+  padding-left: 10px;
+  margin-top: 15px;
+  justify-content: space-between;
+  border-radius: 1px;
+  /* border:1px solid hsl(0, 2%, 13%) ; */
+}
+
+.result button{
+  color: wheat;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color:var(--result-btn);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+.result p{
+  border:0.5px solid #4a4a4a;
+  color: white;
+}
+
+input[type:checkbox]{
+  
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+    margin:0;
+}
+
+input[type=number]{
+    -moz-appearance:textfield;
+}
+
+.line{
+  margin-top: 10px;
+    width:calc(100% + 40px);
+    margin-left:-20px;
+    border:none;
+    height:0.5px;
+    background-color:#4a4a4a;
+}
+.container:hover{
+  border-color: #243c58;
+}
+
