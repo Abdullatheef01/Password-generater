@@ -36,7 +36,10 @@ finalstate(wholevalue)
     <>
     <div className='large'>
       <div className="container">
-        <p className='result'> {final}<button title='Copy' onClick={click}>Copy</button></p>
+       <p className='result'>
+  <span className='password-text'>{final}</span>
+  <button title='Copy' onClick={click}>Copy</button>
+</p>
         <hr className='line'/>
         {/* input-value */}
         <label htmlFor="text-box" className='input-top'>Password Length
