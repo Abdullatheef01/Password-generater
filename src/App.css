@@ -92,7 +92,7 @@ h2{
  margin-top: 30px;
 }
 
-.result{
+/* .result{
   display: flex;
   padding-left: 10px;
   margin-top: 15px;
@@ -100,7 +100,7 @@ h2{
   border-radius: 1px;
   overflow:hidden;
   /* border:1px solid hsl(0, 2%, 13%) ; */
-}
+} */
 
 .result button{
   color: wheat;
@@ -147,17 +147,17 @@ input[type=number]{
   padding-left: 10px;
   margin-top: 15px;
   justify-content: space-between;
-  border-radius: 1px;
-  border:0.5px solid #4a4a4a;
+  /* border-radius: 1px;
+  border:0.5px solid #4a4a4a; */
   overflow: hidden;
 }
-
+/* 
 .password-text{
   overflow-x: auto;
   white-space: nowrap;
   flex: 1;
   padding: 10px 5px;
-}
+} */
 
 .result button{
   flex-shrink: 0;
@@ -167,4 +167,16 @@ input[type=number]{
   border-radius: 5px;
   background-color:var(--result-btn);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.password-text{
+  overflow-x: auto;
+  white-space: nowrap;
+  flex: 1;
+  padding: 10px 5px;
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* IE/Edge old */
+}
+
+.password-text::-webkit-scrollbar{
+  display: none;                /* Chrome, Safari, Edge new */
 }
